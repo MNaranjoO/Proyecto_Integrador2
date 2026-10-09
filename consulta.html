@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi consulta</title>
+    <!-- Hoja de estilos externa -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Encabezado del sistema -->
+    <header>
+        <h1>Sistema de Notas y Asistencias</h1>
+        <p>Panel del estudiante</p>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <a href="consulta.html">Mi consulta</a>
+        <a href="login.html">Cerrar sesión</a>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main>
+        <!-- Datos e indicadores del estudiante (ejemplo: Juan Pérez) -->
+        <section id="datos-generales">
+            <h2>Datos del Estudiante</h2>
+            <p>Nombre: Juan Pérez</p>
+            <p>Correo: juan.perez@correo.com</p>
+            <p>Materias matriculadas: Lógica de Programación, Base de Datos</p>
+            <p>Promedio general de notas: 4.2</p>
+            <p>Asistencia general: 100%</p>
+        </section>
+
+        <!-- Consulta de notas: solo lectura, sin formulario -->
+        <section>
+            <h2>Mis Notas</h2>
+            <table class="tabla-datos">
+                <thead>
+                    <tr>
+                        <th>Materia</th>
+                        <th>Tema calificado</th>
+                        <th>Nota</th>
+                        <th>Fecha</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lógica de Programación</td>
+                        <td>Diagramas de flujo</td>
+                        <td>4.5</td>
+                        <td>2026-10-07</td>
+                    </tr>
+                    <tr>
+                        <td>Lógica de Programación</td>
+                        <td>Pseudocódigo</td>
+                        <td>3.9</td>
+                        <td>2026-10-07</td>
+                    </tr>
+                    <tr>
+                        <td>Base de Datos</td>
+                        <td>Modelo entidad-relación</td>
+                        <td>4.2</td>
+                        <td>2026-10-07</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Consulta de asistencia: solo lectura, sin formulario -->
+        <section>
+            <h2>Mi Asistencia</h2>
+            <table class="tabla-datos">
+                <thead>
+                    <tr>
+                        <th>Materia</th>
+                        <th>Fecha</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lógica de Programación</td>
+                        <td>2026-10-06</td>
+                        <td>Asistió</td>
+                    </tr>
+                    <tr>
+                        <td>Lógica de Programación</td>
+                        <td>2026-10-07</td>
+                        <td>Asistió</td>
+                    </tr>
+                    <tr>
+                        <td>Base de Datos</td>
+                        <td>2026-10-07</td>
+                        <td>Asistió</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Sistema de Notas y Asistencias - 2026</p>
+    </footer>
+
+</body>
+
+</html>

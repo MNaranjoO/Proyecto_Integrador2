@@ -1,0 +1,242 @@
+body {
+    background-color: #c2cac4;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f1f5f1;
+    margin: 0;
+    padding: 15px;
+    line-height: 1.5;
+}
+
+
+header, nav, section, footer {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto 20px auto;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: #2b4535;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+
+header p {
+    color: #e0ede3;
+    margin: 8px 0 0 0;
+}
+
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    background-color: #3a5a47;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 14px;
+    margin: 4px;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    background-color: #86a872;
+}
+
+
+section {
+    background-color: #76847a;
+    color: #ffffff;
+    padding: 20px;
+    border: 2px solid #86a08e;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+
+h2 {
+    color: #e3f2e6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 0;
+}
+
+
+p {
+    color: #f1f5f1;
+}
+
+
+#datos-generales {
+    background-color: #e0eadf;
+    border: 2px solid #86a872;
+    color: #2b4535;
+}
+
+#datos-generales h2 {
+    color: #2b4535;
+}
+
+#datos-generales p {
+    color: #2b4535;
+}
+
+#datos-generales dt {
+    font-weight: bold;
+    color: #35573f;
+}
+
+#datos-generales dd {
+    margin: 0 0 10px 0;
+    color: #2b4535;
+}
+
+
+.nota-ayuda {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #f1f5f1;
+}
+
+#datos-generales .nota-ayuda {
+    color: #2b4535;
+}
+
+
+.formulario {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+.formulario label {
+    display: block;
+    color: #ffffff;
+    margin: 10px 0 0 0;
+}
+
+
+input, select, button {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+input, select {
+    background-color: #eff3ed;
+    color: #2b3a2f;
+    padding: 8px;
+    margin: 5px 0 10px 0;
+    border: 1px solid #b4c2a8;
+}
+
+input::placeholder {
+    color: #5f6f62;
+}
+
+button {
+    background-color: #2b4535;
+    color: #ffffff;
+    padding: 10px;
+    margin: 15px 0 0 0;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7a9a5a;
+}
+
+
+.tabla-datos {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+th, td {
+    border: 1px solid #a3b5a6;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #2b4535;
+    color: #ffffff;
+}
+
+td {
+    background-color: #e6efe7;
+    color: #2b3a2f;
+}
+
+
+.bien {
+    color: #b4f1c8;
+    font-weight: bold;
+}
+
+.mal {
+    color: #ffc0c0;
+    font-weight: bold;
+}
+
+td.bien,
+td .bien {
+    color: #18763c;
+}
+
+td.mal,
+td .mal {
+    color: #b3261e;
+}
+
+
+summary {
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+details p {
+    color: #f1f5f1;
+}
+
+#datos-generales summary {
+    color: #2b4535;
+}
+
+#datos-generales details p {
+    color: #2b4535;
+}
+
+
+footer {
+    background-color: #2b4535;
+    color: #ffffff;
+    text-align: center;
+    padding: 12px;
+    margin-bottom: 0;
+    border-radius: 8px;
+}
+
+footer p {
+    color: #ffffff;
+    margin: 0;
+}

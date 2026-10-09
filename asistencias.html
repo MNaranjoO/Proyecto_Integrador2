@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asistencias</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Sistema de Notas y Asistencias</h1>
+        <p>Panel del profesor</p>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <a href="estudiantes.html">Estudiantes</a>
+        <a href="notas.html">Notas</a>
+        <a href="asistencias.html">Asistencias</a>
+        <a href="resumen.html">Resumen</a>
+        <a href="login.html">Cerrar sesión</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Registro de Asistencia</h2>
+
+            <form class="formulario">
+                <label for="estudianteAsistencia">Estudiante:</label>
+                <select id="estudianteAsistencia">
+                    <option value="">Seleccione un estudiante</option>
+                    <option value="1">Juan Pérez</option>
+                    <option value="2">Laura Gómez</option>
+                    <option value="3">Carlos Ramírez</option>
+                </select>
+
+                <label for="materiaAsistencia">Materia:</label>
+                <select id="materiaAsistencia">
+                    <option value="">Seleccione una materia</option>
+                    <option value="1">Lógica de Programación</option>
+                    <option value="2">Base de Datos</option>
+                    <option value="3">Introducción a la Programación</option>
+                </select>
+
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha">
+
+                <label for="estado">Estado:</label>
+                <select id="estado">
+                    <option value="Asistió">Asistió</option>
+                    <option value="No asistió">No asistió</option>
+                </select>
+
+                <button type="submit">Guardar Asistencia</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Asistencias registradas</h2>
+            <table class="tabla-datos">
+                <thead>
+                    <tr>
+                        <th>Estudiante</th>
+                        <th>Materia</th>
+                        <th>Fecha</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Juan Pérez</td>
+                        <td>Lógica de Programación</td>
+                        <td>2026-10-06</td>
+                        <td>Asistió</td>
+                    </tr>
+                    <tr>
+                        <td>Laura Gómez</td>
+                        <td>Base de Datos</td>
+                        <td>2026-10-06</td>
+                        <td>Asistió</td>
+                    </tr>
+                    <tr>
+                        <td>Carlos Ramírez</td>
+                        <td>Introducción a la Programación</td>
+                        <td>2026-10-06</td>
+                        <td>No asistió</td>
+                    </tr>
+                    <tr>
+                        <td>Juan Pérez</td>
+                        <td>Lógica de Programación</td>
+                        <td>2026-10-07</td>
+                        <td>Asistió</td>
+                    </tr>
+                    <tr>
+                        <td>Juan Pérez</td>
+                        <td>Base de Datos</td>
+                        <td>2026-10-07</td>
+                        <td>Asistió</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>Sistema de Notas y Asistencias - 2026</p>
+    </footer>
+
+</body>
+
+</html>

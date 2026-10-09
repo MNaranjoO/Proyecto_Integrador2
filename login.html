@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+    <!-- Hoja de estilos externa -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Sistema de Notas y Asistencias</h1>
+        <p>Acceso al sistema</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="login.html">Iniciar sesión</a>
+    </nav>
+
+    <main>
+        
+        <section>
+            <h2>Ingreso de Estudiante</h2>
+            <p>Consulta tus notas y tu asistencia.</p>
+
+            <form class="formulario" action="consulta.html">
+                <label for="correoEstudiante">Correo:</label>
+                <input type="email" id="correoEstudiante">
+
+                <label for="claveEstudiante">Contraseña:</label>
+                <input type="password" id="claveEstudiante">
+
+                <button type="submit">Ingresar como estudiante</button>
+            </form>
+        </section>
+
+        
+        <section>
+            <h2>Ingreso de Profesor</h2>
+            <p>Registra estudiantes, notas y asistencias.</p>
+
+            <form class="formulario" action="estudiantes.html">
+                <label for="correoProfesor">Correo:</label>
+                <input type="email" id="correoProfesor">
+
+                <label for="claveProfesor">Contraseña:</label>
+                <input type="password" id="claveProfesor">
+
+                <button type="submit">Ingresar como profesor</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Sistema de Notas y Asistencias - 2026</p>
+    </footer>
+
+</body>
+
+</html>
