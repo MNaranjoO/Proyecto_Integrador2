@@ -7,14 +7,12 @@ body {
     line-height: 1.5;
 }
 
-
 header, nav, section, footer {
     width: 90%;
     max-width: 1000px;
     margin: 0 auto 20px auto;
     box-sizing: border-box;
 }
-
 
 header {
     background-color: #2b4535;
@@ -30,12 +28,10 @@ h1 {
     color: #ffffff;
 }
 
-
 header p {
     color: #e0ede3;
     margin: 8px 0 0 0;
 }
-
 
 nav {
     text-align: center;
@@ -55,7 +51,6 @@ nav a:hover {
     background-color: #86a872;
 }
 
-
 section {
     background-color: #76847a;
     color: #ffffff;
@@ -65,7 +60,6 @@ section {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
-
 h2 {
     color: #e3f2e6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -74,11 +68,9 @@ h2 {
     margin-top: 0;
 }
 
-
 p {
     color: #f1f5f1;
 }
-
 
 #datos-generales {
     background-color: #e0eadf;
@@ -94,40 +86,16 @@ p {
     color: #2b4535;
 }
 
-#datos-generales dt {
-    font-weight: bold;
-    color: #35573f;
-}
-
-#datos-generales dd {
-    margin: 0 0 10px 0;
-    color: #2b4535;
-}
-
-
-.nota-ayuda {
-    text-align: center;
-    font-size: 0.9rem;
-    color: #f1f5f1;
-}
-
-#datos-generales .nota-ayuda {
-    color: #2b4535;
-}
-
-
 .formulario {
     max-width: 500px;
     margin: 0 auto;
 }
-
 
 .formulario label {
     display: block;
     color: #ffffff;
     margin: 10px 0 0 0;
 }
-
 
 input, select, button {
     display: block;
@@ -146,10 +114,6 @@ input, select {
     border: 1px solid #b4c2a8;
 }
 
-input::placeholder {
-    color: #5f6f62;
-}
-
 button {
     background-color: #2b4535;
     color: #ffffff;
@@ -163,12 +127,10 @@ button:hover {
     background-color: #7a9a5a;
 }
 
-
 .tabla-datos {
     width: 100%;
     border-collapse: collapse;
 }
-
 
 th, td {
     border: 1px solid #a3b5a6;
@@ -185,47 +147,6 @@ td {
     background-color: #e6efe7;
     color: #2b3a2f;
 }
-
-
-.bien {
-    color: #b4f1c8;
-    font-weight: bold;
-}
-
-.mal {
-    color: #ffc0c0;
-    font-weight: bold;
-}
-
-td.bien,
-td .bien {
-    color: #18763c;
-}
-
-td.mal,
-td .mal {
-    color: #b3261e;
-}
-
-
-summary {
-    cursor: pointer;
-    color: #ffffff;
-    font-weight: bold;
-}
-
-details p {
-    color: #f1f5f1;
-}
-
-#datos-generales summary {
-    color: #2b4535;
-}
-
-#datos-generales details p {
-    color: #2b4535;
-}
-
 
 footer {
     background-color: #2b4535;
